@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>James Clarence M. Pacot</h1>
+        <p>BSIT – Web Development Student</p>
+        <button id="darkModeBtn">Toggle Dark Mode</button>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a third-year BSIT student majoring in Web Development. I am passionate about learning
+                web technologies and continuously improving my skills through practice and projects.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>
+                Bachelor of Science in Information Technology  
+                <br>University of the Cordilleras
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>
+                Student projects involving HTML, CSS, JavaScript, and basic web applications.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (Basic)</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+       <section id="projects" class="projects-section">
+    <h2 class="projects-title">Projects</h2>
+
+    <div class="projects-grid">
+        <a href="https://prodland-samsung.vercel.app" target="_blank" class="project-card">
+            <img src="imgs/survey-form.png" alt="Survey Form Project">
+            <div class="project-label">Survey Form</div>
+        </a>
+        <a href="https://survey-commute.vercel.app" target="_blank" class="project-card">
+            <img src="imgs/survey-form.png" alt="Survey Form Project">
+            <div class="project-label">Survey Form</div>
+        </a>
+
+        <a href="https://liam-tribute.vercel.app" target="_blank" class="project-card">
+            <img src="imgs/liam-tribute.png" alt="Tribute Page Project">
+            <div class="project-label">Tribute Page</div>
+        </a>
+
+        <a href="https://techdoc-html.vercel.app" target="_blank" class="project-card">
+            <img src="imgs/techdoc-html.png" alt="Technical Documentation Project">
+            <div class="project-label">Technical Documentation</div>
+        </a>
+    </div>
+</section>
+
+
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 James Clarence M. Pacot</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
