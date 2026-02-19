@@ -1,0 +1,111 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #eaeaea;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+/* Main Container */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+header h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #00f5ff;
+    text-transform: uppercase;
+}
+
+/* Sections */
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 0 15px rgba(0, 255, 255, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.25);
+}
+
+section h2 {
+    font-size: 1.4rem;
+    color: #00f5ff;
+    margin-bottom: 0.75rem;
+    border-left: 4px solid #00f5ff;
+    padding-left: 0.75rem;
+}
+
+section p {
+    font-size: 1rem;
+    text-align: justify;
+    color: #f1f1f1;
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+.signer {
+    margin-top: 0.5rem;
+    font-weight: 600;
+    color: #00f5ff;
+    letter-spacing: 1px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    section {
+        padding: 1.2rem;
+    }
+
+    section h2 {
+        font-size: 1.2rem;
+    }
+
+    section p {
+        font-size: 0.95rem;
+    }
+}
